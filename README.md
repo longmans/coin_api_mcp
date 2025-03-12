@@ -4,6 +4,10 @@
 
 A Model Context Protocol server that provides access to CoinMarketCap's cryptocurrency data. This server enables AI-powered applications to retrieve cryptocurrency listings, quotes, and detailed information about various coins.
 
+<a href="https://glama.ai/mcp/servers/504t0uq4s6">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/504t0uq4s6/badge" alt="Coin Server MCP server" />
+</a>
+
 ### Available Tools
 
 - `listing-coins` - Fetches a paginated list of all active cryptocurrencies with the latest market data.

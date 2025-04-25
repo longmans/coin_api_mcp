@@ -53,6 +53,11 @@ After installation, you can run it as a script using:
 python -m coin_api_mcp
 ```
 
+### Direct Installation
+You can also download the package and run it directly as a script with your default Python interpreter with the following command:
+```bash
+python server.py --api-key=<your-api-key>
+```
 
 
 ## Configuration
@@ -71,7 +76,18 @@ export COINMARKETCAP_API_KEY=your_api_key_here
 python -m coin_api_mcp --api-key=your_api_key_here
 ```
 
+### Configure for Claude Desktop if you downloaded the whole repository
 
+Add to your Claude settings:
+
+```json
+"mcpServers": {
+  "coin_api": {
+    "command": "python",
+    "args": ["/path/to/coin_api_mcp/server.py", "--api-key", "your_api_key_here"]
+  }
+}
+```
 ### Configure for Claude.app
 
 Add to your Claude settings:

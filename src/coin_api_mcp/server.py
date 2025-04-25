@@ -1,5 +1,4 @@
 from typing import Any
-import asyncio
 import httpx
 from mcp.server.models import InitializationOptions
 import mcp.types as types
@@ -376,9 +375,3 @@ async def main(api_key: str):
                 ),
             ),
         )
-
-# This is needed if you'd like to connect to a custom client
-if __name__ == "__main__":
-    #get api key from coinmarketcap
-    api_key = "xxxxxxx"
-    asyncio.run(main(api_key))

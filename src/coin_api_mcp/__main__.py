@@ -1,3 +1,4 @@
-from coin_api_mcp import main
+from coin_api_mcp.server import main
 
-main()
+if __name__ == "__main__":
+    main()

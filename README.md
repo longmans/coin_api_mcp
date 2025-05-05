@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/longmans-coin-api-mcp-badge.png)](https://mseep.ai/app/longmans-coin-api-mcp)
+
 # Coin MCP Server
 
 [![smithery badge](https://smithery.ai/badge/coin-api-mcp)](https://smithery.ai/server/coin-api-mcp)
